@@ -26,7 +26,7 @@
     - pass the city name in the this API : https://api.openweathermap.org/data/2.5/weather?q={city_name}&appid={API_key}
 
 
-## ScreenShots of the app
+## Screen shots of the app
 
 <img src = "https://github.com/hossammeligy/Weather-Flutter-App/assets/68854085/eb7a4fa2-ee0e-44a2-a58b-169e842bf5e4" width="250" height="500">
 <img src = "https://github.com/hossammeligy/Weather-Flutter-App/assets/68854085/b929dcfd-a0d0-43e0-924b-f663f9983eaf" width="250" height="500">
