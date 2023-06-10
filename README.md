@@ -1,18 +1,5 @@
 
-
-
-# Clima ☁
-
-## Our Goal
-
-The objective of this tutorial is to learn about asynchronous programming in Dart. We'll look at how to carry out time consuming tasks such as getting device location and networking to get data from the internet. 
-
-
-## What you will create
-
-We’re going to make a weather app inspired by the beautiful designs made by [Olia Gozha](https://dribbble.com/shots/4663154-). By the end of the module, you'll be able to find out the live weather data in the current location of the device as well as the weather for any city you can think of!
-
-## What you will learn
+# The objective of this project is to learn:
 
 - How to use Dart to perform asynchronous tasks.
 - Understand async and await.
@@ -25,4 +12,23 @@ We’re going to make a weather app inspired by the beautiful designs made by [O
 - Learn about the lifecycle of Stateful Widgets and how to override them.
 - How to use the Geolocator package to get live location data for both iOS and Android.
 - How to use the TextField Widget to take user input.
+
+
+## I am going to make a weather app with main two functionalities:
+  - Get the Current location weather using the latitude and the longtude.
+  - Get weather for another location by  city name.
+
+**The api used in this project is "Openweathermap" API :** https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&exclude={part}&appid={API key}
+ - for the Current Location:
+    - pass the latitude value in {lat} in the API url
+    - pass the longtude value in {lon} in the API url
+ -  for getting the weather for specific city:
+    - pass the city name in the this API : https://api.openweathermap.org/data/2.5/weather?q={city_name}&appid={API_key}
+
+
+## ScreenShots of the app
+
+<img src = "https://github.com/hossammeligy/Weather-Flutter-App/assets/68854085/eb7a4fa2-ee0e-44a2-a58b-169e842bf5e4" width="250" height="500">
+<img src = "https://github.com/hossammeligy/Weather-Flutter-App/assets/68854085/b929dcfd-a0d0-43e0-924b-f663f9983eaf" width="250" height="500">
+<img src = 'https://github.com/hossammeligy/Weather-Flutter-App/assets/68854085/9ba9790c-d3d1-4f1a-b624-1d737355f903' width="250" height="500">
 
